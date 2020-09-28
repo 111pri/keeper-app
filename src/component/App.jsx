@@ -1,0 +1,15 @@
+import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
+import Note from "./Note";
+
+function App(){
+    return <div className="note">
+<Header />
+<Footer />
+<Note />
+
+    </div>
+}
+
+export default App;
